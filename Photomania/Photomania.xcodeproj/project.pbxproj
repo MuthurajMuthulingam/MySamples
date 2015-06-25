@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC0FB1F11A44540A00620517 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0FB1F01A44540A00620517 /* Foundation.framework */; };
+		FC0FB1F31A44540A00620517 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0FB1F21A44540A00620517 /* CoreGraphics.framework */; };
+		FC0FB1F51A44540A00620517 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0FB1F41A44540A00620517 /* UIKit.framework */; };
+		FC0FB1FB1A44540A00620517 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC0FB1F91A44540A00620517 /* InfoPlist.strings */; };
+		FC0FB1FD1A44540A00620517 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0FB1FC1A44540A00620517 /* main.m */; };
+		FC0FB2011A44540A00620517 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0FB2001A44540A00620517 /* AppDelegate.m */; };
+		FC0FB2031A44540A00620517 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC0FB2021A44540A00620517 /* Images.xcassets */; };
+		FC0FB20A1A44540B00620517 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0FB2091A44540B00620517 /* XCTest.framework */; };
+		FC0FB20B1A44540B00620517 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0FB1F01A44540A00620517 /* Foundation.framework */; };
+		FC0FB20C1A44540B00620517 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0FB1F41A44540A00620517 /* UIKit.framework */; };
+		FC0FB2141A44540B00620517 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC0FB2121A44540B00620517 /* InfoPlist.strings */; };
+		FC0FB2161A44540B00620517 /* PhotomaniaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0FB2151A44540B00620517 /* PhotomaniaTests.m */; };
+		FC0FB22A1A44589C00620517 /* InitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0FB2291A44589C00620517 /* InitialViewController.m */; };
+		FC0FB22D1A4458BC00620517 /* InitialView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0FB22C1A4458BC00620517 /* InitialView.m */; };
+		FC0FB2301A445C8800620517 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0FB22F1A445C8800620517 /* BaseViewController.m */; };
+		FC0FB2331A445C9B00620517 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0FB2321A445C9B00620517 /* BaseView.m */; };
+		FC3A9E801A46781C002DDA5D /* ServerHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3A9E7F1A46781C002DDA5D /* ServerHandler.m */; };
+		FC3A9E841A4678EE002DDA5D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3A9E831A4678EE002DDA5D /* MBProgressHUD.m */; };
+		FC3A9E881A467C19002DDA5D /* AsynchronousImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3A9E871A467C19002DDA5D /* AsynchronousImageDownloader.m */; };
+		FC3A9E8B1A467DCA002DDA5D /* ImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3A9E8A1A467DCA002DDA5D /* ImageViewCell.m */; };
+		FC3A9E8E1A4684E5002DDA5D /* ImageListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3A9E8D1A4684E5002DDA5D /* ImageListTableViewController.m */; };
+		FC3A9E9C1A468E38002DDA5D /* NSMutableArray+SWUtilityButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3A9E911A468E38002DDA5D /* NSMutableArray+SWUtilityButtons.m */; };
+		FC3A9E9D1A468E38002DDA5D /* SWCellScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3A9E931A468E38002DDA5D /* SWCellScrollView.m */; };
+		FC3A9E9E1A468E38002DDA5D /* SWLongPressGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3A9E951A468E38002DDA5D /* SWLongPressGestureRecognizer.m */; };
+		FC3A9E9F1A468E38002DDA5D /* SWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3A9E971A468E38002DDA5D /* SWTableViewCell.m */; };
+		FC3A9EA01A468E38002DDA5D /* SWUtilityButtonTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3A9E991A468E38002DDA5D /* SWUtilityButtonTapGestureRecognizer.m */; };
+		FC3A9EA11A468E38002DDA5D /* SWUtilityButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3A9E9B1A468E38002DDA5D /* SWUtilityButtonView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC0FB20D1A44540B00620517 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC0FB1E51A44540A00620517 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC0FB1EC1A44540A00620517;
+			remoteInfo = Photomania;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC0FB1ED1A44540A00620517 /* Photomania.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photomania.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC0FB1F01A44540A00620517 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FC0FB1F21A44540A00620517 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FC0FB1F41A44540A00620517 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FC0FB1F81A44540A00620517 /* Photomania-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Photomania-Info.plist"; sourceTree = "<group>"; };
+		FC0FB1FA1A44540A00620517 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC0FB1FC1A44540A00620517 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC0FB1FE1A44540A00620517 /* Photomania-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Photomania-Prefix.pch"; sourceTree = "<group>"; };
+		FC0FB1FF1A44540A00620517 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC0FB2001A44540A00620517 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC0FB2021A44540A00620517 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC0FB2081A44540B00620517 /* PhotomaniaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotomaniaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC0FB2091A44540B00620517 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FC0FB2111A44540B00620517 /* PhotomaniaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotomaniaTests-Info.plist"; sourceTree = "<group>"; };
+		FC0FB2131A44540B00620517 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC0FB2151A44540B00620517 /* PhotomaniaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotomaniaTests.m; sourceTree = "<group>"; };
+		FC0FB2281A44589C00620517 /* InitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialViewController.h; sourceTree = "<group>"; };
+		FC0FB2291A44589C00620517 /* InitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialViewController.m; sourceTree = "<group>"; };
+		FC0FB22B1A4458BC00620517 /* InitialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InitialView.h; path = Photomania/Views/InitialView.h; sourceTree = SOURCE_ROOT; };
+		FC0FB22C1A4458BC00620517 /* InitialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InitialView.m; path = Photomania/Views/InitialView.m; sourceTree = SOURCE_ROOT; };
+		FC0FB22E1A445C8800620517 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		FC0FB22F1A445C8800620517 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		FC0FB2311A445C9B00620517 /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		FC0FB2321A445C9B00620517 /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		FC3A9E7E1A46781C002DDA5D /* ServerHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServerHandler.h; path = ServerHandler/ServerHandler.h; sourceTree = "<group>"; };
+		FC3A9E7F1A46781C002DDA5D /* ServerHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ServerHandler.m; path = ServerHandler/ServerHandler.m; sourceTree = "<group>"; };
+		FC3A9E821A4678EE002DDA5D /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		FC3A9E831A4678EE002DDA5D /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		FC3A9E861A467C19002DDA5D /* AsynchronousImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsynchronousImageDownloader.h; sourceTree = "<group>"; };
+		FC3A9E871A467C19002DDA5D /* AsynchronousImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsynchronousImageDownloader.m; sourceTree = "<group>"; };
+		FC3A9E891A467DCA002DDA5D /* ImageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewCell.h; sourceTree = "<group>"; };
+		FC3A9E8A1A467DCA002DDA5D /* ImageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewCell.m; sourceTree = "<group>"; };
+		FC3A9E8C1A4684E5002DDA5D /* ImageListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageListTableViewController.h; sourceTree = "<group>"; };
+		FC3A9E8D1A4684E5002DDA5D /* ImageListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageListTableViewController.m; sourceTree = "<group>"; };
+		FC3A9E901A468E38002DDA5D /* NSMutableArray+SWUtilityButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+SWUtilityButtons.h"; sourceTree = "<group>"; };
+		FC3A9E911A468E38002DDA5D /* NSMutableArray+SWUtilityButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+SWUtilityButtons.m"; sourceTree = "<group>"; };
+		FC3A9E921A468E38002DDA5D /* SWCellScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWCellScrollView.h; sourceTree = "<group>"; };
+		FC3A9E931A468E38002DDA5D /* SWCellScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWCellScrollView.m; sourceTree = "<group>"; };
+		FC3A9E941A468E38002DDA5D /* SWLongPressGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWLongPressGestureRecognizer.h; sourceTree = "<group>"; };
+		FC3A9E951A468E38002DDA5D /* SWLongPressGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWLongPressGestureRecognizer.m; sourceTree = "<group>"; };
+		FC3A9E961A468E38002DDA5D /* SWTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTableViewCell.h; sourceTree = "<group>"; };
+		FC3A9E971A468E38002DDA5D /* SWTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTableViewCell.m; sourceTree = "<group>"; };
+		FC3A9E981A468E38002DDA5D /* SWUtilityButtonTapGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWUtilityButtonTapGestureRecognizer.h; sourceTree = "<group>"; };
+		FC3A9E991A468E38002DDA5D /* SWUtilityButtonTapGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUtilityButtonTapGestureRecognizer.m; sourceTree = "<group>"; };
+		FC3A9E9A1A468E38002DDA5D /* SWUtilityButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWUtilityButtonView.h; sourceTree = "<group>"; };
+		FC3A9E9B1A468E38002DDA5D /* SWUtilityButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUtilityButtonView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC0FB1EA1A44540A00620517 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0FB1F31A44540A00620517 /* CoreGraphics.framework in Frameworks */,
+				FC0FB1F51A44540A00620517 /* UIKit.framework in Frameworks */,
+				FC0FB1F11A44540A00620517 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0FB2051A44540B00620517 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0FB20A1A44540B00620517 /* XCTest.framework in Frameworks */,
+				FC0FB20C1A44540B00620517 /* UIKit.framework in Frameworks */,
+				FC0FB20B1A44540B00620517 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC0FB1E41A44540A00620517 = {
+			isa = PBXGroup;
+			children = (
+				FC0FB1F61A44540A00620517 /* Photomania */,
+				FC0FB20F1A44540B00620517 /* PhotomaniaTests */,
+				FC0FB1EF1A44540A00620517 /* Frameworks */,
+				FC0FB1EE1A44540A00620517 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC0FB1EE1A44540A00620517 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC0FB1ED1A44540A00620517 /* Photomania.app */,
+				FC0FB2081A44540B00620517 /* PhotomaniaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC0FB1EF1A44540A00620517 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC0FB1F01A44540A00620517 /* Foundation.framework */,
+				FC0FB1F21A44540A00620517 /* CoreGraphics.framework */,
+				FC0FB1F41A44540A00620517 /* UIKit.framework */,
+				FC0FB2091A44540B00620517 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC0FB1F61A44540A00620517 /* Photomania */ = {
+			isa = PBXGroup;
+			children = (
+				FC3A9EA21A46938F002DDA5D /* ThirdParty */,
+				FC3A9E851A467C19002DDA5D /* ImageDownloader */,
+				FC3A9E811A4678EE002DDA5D /* MBProgressHUD */,
+				FC3A9E7D1A4677E8002DDA5D /* ServerHandler */,
+				FC0FB2201A44544B00620517 /* ViewController */,
+				FC0FB2211A44544B00620517 /* Views */,
+				FC0FB1FF1A44540A00620517 /* AppDelegate.h */,
+				FC0FB2001A44540A00620517 /* AppDelegate.m */,
+				FC0FB2021A44540A00620517 /* Images.xcassets */,
+				FC0FB1F71A44540A00620517 /* Supporting Files */,
+			);
+			path = Photomania;
+			sourceTree = "<group>";
+		};
+		FC0FB1F71A44540A00620517 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC0FB1F81A44540A00620517 /* Photomania-Info.plist */,
+				FC0FB1F91A44540A00620517 /* InfoPlist.strings */,
+				FC0FB1FC1A44540A00620517 /* main.m */,
+				FC0FB1FE1A44540A00620517 /* Photomania-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC0FB20F1A44540B00620517 /* PhotomaniaTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC0FB2151A44540B00620517 /* PhotomaniaTests.m */,
+				FC0FB2101A44540B00620517 /* Supporting Files */,
+			);
+			path = PhotomaniaTests;
+			sourceTree = "<group>";
+		};
+		FC0FB2101A44540B00620517 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC0FB2111A44540B00620517 /* PhotomaniaTests-Info.plist */,
+				FC0FB2121A44540B00620517 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC0FB2201A44544B00620517 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FC0FB2281A44589C00620517 /* InitialViewController.h */,
+				FC0FB2291A44589C00620517 /* InitialViewController.m */,
+				FC0FB22E1A445C8800620517 /* BaseViewController.h */,
+				FC0FB22F1A445C8800620517 /* BaseViewController.m */,
+				FC3A9E8C1A4684E5002DDA5D /* ImageListTableViewController.h */,
+				FC3A9E8D1A4684E5002DDA5D /* ImageListTableViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		FC0FB2211A44544B00620517 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FC0FB22B1A4458BC00620517 /* InitialView.h */,
+				FC0FB22C1A4458BC00620517 /* InitialView.m */,
+				FC0FB2311A445C9B00620517 /* BaseView.h */,
+				FC0FB2321A445C9B00620517 /* BaseView.m */,
+				FC3A9E891A467DCA002DDA5D /* ImageViewCell.h */,
+				FC3A9E8A1A467DCA002DDA5D /* ImageViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FC3A9E7D1A4677E8002DDA5D /* ServerHandler */ = {
+			isa = PBXGroup;
+			children = (
+				FC3A9E7E1A46781C002DDA5D /* ServerHandler.h */,
+				FC3A9E7F1A46781C002DDA5D /* ServerHandler.m */,
+			);
+			name = ServerHandler;
+			sourceTree = "<group>";
+		};
+		FC3A9E811A4678EE002DDA5D /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				FC3A9E821A4678EE002DDA5D /* MBProgressHUD.h */,
+				FC3A9E831A4678EE002DDA5D /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		FC3A9E851A467C19002DDA5D /* ImageDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				FC3A9E861A467C19002DDA5D /* AsynchronousImageDownloader.h */,
+				FC3A9E871A467C19002DDA5D /* AsynchronousImageDownloader.m */,
+			);
+			path = ImageDownloader;
+			sourceTree = "<group>";
+		};
+		FC3A9E8F1A468E38002DDA5D /* SWTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				FC3A9E901A468E38002DDA5D /* NSMutableArray+SWUtilityButtons.h */,
+				FC3A9E911A468E38002DDA5D /* NSMutableArray+SWUtilityButtons.m */,
+				FC3A9E921A468E38002DDA5D /* SWCellScrollView.h */,
+				FC3A9E931A468E38002DDA5D /* SWCellScrollView.m */,
+				FC3A9E941A468E38002DDA5D /* SWLongPressGestureRecognizer.h */,
+				FC3A9E951A468E38002DDA5D /* SWLongPressGestureRecognizer.m */,
+				FC3A9E961A468E38002DDA5D /* SWTableViewCell.h */,
+				FC3A9E971A468E38002DDA5D /* SWTableViewCell.m */,
+				FC3A9E981A468E38002DDA5D /* SWUtilityButtonTapGestureRecognizer.h */,
+				FC3A9E991A468E38002DDA5D /* SWUtilityButtonTapGestureRecognizer.m */,
+				FC3A9E9A1A468E38002DDA5D /* SWUtilityButtonView.h */,
+				FC3A9E9B1A468E38002DDA5D /* SWUtilityButtonView.m */,
+			);
+			path = SWTableViewCell;
+			sourceTree = "<group>";
+		};
+		FC3A9EA21A46938F002DDA5D /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				FC3A9E8F1A468E38002DDA5D /* SWTableViewCell */,
+			);
+			name = ThirdParty;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC0FB1EC1A44540A00620517 /* Photomania */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC0FB2191A44540B00620517 /* Build configuration list for PBXNativeTarget "Photomania" */;
+			buildPhases = (
+				FC0FB1E91A44540A00620517 /* Sources */,
+				FC0FB1EA1A44540A00620517 /* Frameworks */,
+				FC0FB1EB1A44540A00620517 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Photomania;
+			productName = Photomania;
+			productReference = FC0FB1ED1A44540A00620517 /* Photomania.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC0FB2071A44540B00620517 /* PhotomaniaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC0FB21C1A44540B00620517 /* Build configuration list for PBXNativeTarget "PhotomaniaTests" */;
+			buildPhases = (
+				FC0FB2041A44540B00620517 /* Sources */,
+				FC0FB2051A44540B00620517 /* Frameworks */,
+				FC0FB2061A44540B00620517 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC0FB20E1A44540B00620517 /* PBXTargetDependency */,
+			);
+			name = PhotomaniaTests;
+			productName = PhotomaniaTests;
+			productReference = FC0FB2081A44540B00620517 /* PhotomaniaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC0FB1E51A44540A00620517 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Market Simplified";
+				TargetAttributes = {
+					FC0FB2071A44540B00620517 = {
+						TestTargetID = FC0FB1EC1A44540A00620517;
+					};
+				};
+			};
+			buildConfigurationList = FC0FB1E81A44540A00620517 /* Build configuration list for PBXProject "Photomania" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FC0FB1E41A44540A00620517;
+			productRefGroup = FC0FB1EE1A44540A00620517 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC0FB1EC1A44540A00620517 /* Photomania */,
+				FC0FB2071A44540B00620517 /* PhotomaniaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC0FB1EB1A44540A00620517 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0FB1FB1A44540A00620517 /* InfoPlist.strings in Resources */,
+				FC0FB2031A44540A00620517 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0FB2061A44540B00620517 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0FB2141A44540B00620517 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC0FB1E91A44540A00620517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3A9E8E1A4684E5002DDA5D /* ImageListTableViewController.m in Sources */,
+				FC3A9E9E1A468E38002DDA5D /* SWLongPressGestureRecognizer.m in Sources */,
+				FC3A9E8B1A467DCA002DDA5D /* ImageViewCell.m in Sources */,
+				FC3A9EA11A468E38002DDA5D /* SWUtilityButtonView.m in Sources */,
+				FC3A9E9C1A468E38002DDA5D /* NSMutableArray+SWUtilityButtons.m in Sources */,
+				FC0FB22A1A44589C00620517 /* InitialViewController.m in Sources */,
+				FC0FB2331A445C9B00620517 /* BaseView.m in Sources */,
+				FC3A9EA01A468E38002DDA5D /* SWUtilityButtonTapGestureRecognizer.m in Sources */,
+				FC0FB2011A44540A00620517 /* AppDelegate.m in Sources */,
+				FC3A9E801A46781C002DDA5D /* ServerHandler.m in Sources */,
+				FC3A9E9D1A468E38002DDA5D /* SWCellScrollView.m in Sources */,
+				FC0FB1FD1A44540A00620517 /* main.m in Sources */,
+				FC3A9E841A4678EE002DDA5D /* MBProgressHUD.m in Sources */,
+				FC3A9E9F1A468E38002DDA5D /* SWTableViewCell.m in Sources */,
+				FC0FB2301A445C8800620517 /* BaseViewController.m in Sources */,
+				FC0FB22D1A4458BC00620517 /* InitialView.m in Sources */,
+				FC3A9E881A467C19002DDA5D /* AsynchronousImageDownloader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0FB2041A44540B00620517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0FB2161A44540B00620517 /* PhotomaniaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC0FB20E1A44540B00620517 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC0FB1EC1A44540A00620517 /* Photomania */;
+			targetProxy = FC0FB20D1A44540B00620517 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC0FB1F91A44540A00620517 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC0FB1FA1A44540A00620517 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FC0FB2121A44540B00620517 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC0FB2131A44540B00620517 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC0FB2171A44540B00620517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC0FB2181A44540B00620517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC0FB21A1A44540B00620517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Photomania/Photomania-Prefix.pch";
+				INFOPLIST_FILE = "Photomania/Photomania-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FC0FB21B1A44540B00620517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Photomania/Photomania-Prefix.pch";
+				INFOPLIST_FILE = "Photomania/Photomania-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FC0FB21D1A44540B00620517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Photomania.app/Photomania";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Photomania/Photomania-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PhotomaniaTests/PhotomaniaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FC0FB21E1A44540B00620517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Photomania.app/Photomania";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Photomania/Photomania-Prefix.pch";
+				INFOPLIST_FILE = "PhotomaniaTests/PhotomaniaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC0FB1E81A44540A00620517 /* Build configuration list for PBXProject "Photomania" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC0FB2171A44540B00620517 /* Debug */,
+				FC0FB2181A44540B00620517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC0FB2191A44540B00620517 /* Build configuration list for PBXNativeTarget "Photomania" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC0FB21A1A44540B00620517 /* Debug */,
+				FC0FB21B1A44540B00620517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC0FB21C1A44540B00620517 /* Build configuration list for PBXNativeTarget "PhotomaniaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC0FB21D1A44540B00620517 /* Debug */,
+				FC0FB21E1A44540B00620517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC0FB1E51A44540A00620517 /* Project object */;
+}

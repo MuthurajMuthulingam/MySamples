@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC3AFC501A9980B400B88182 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3AFC4F1A9980B400B88182 /* main.m */; };
+		FC3AFC531A9980B400B88182 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3AFC521A9980B400B88182 /* AppDelegate.m */; };
+		FC3AFC591A9980B400B88182 /* InitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3AFC581A9980B400B88182 /* InitialViewController.m */; };
+		FC3AFC5C1A9980B400B88182 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC3AFC5A1A9980B400B88182 /* MainStoryboard.storyboard */; };
+		FC3AFC5E1A9980B400B88182 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC3AFC5D1A9980B400B88182 /* Images.xcassets */; };
+		FC3AFC611A9980B400B88182 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC3AFC5F1A9980B400B88182 /* LaunchScreen.xib */; };
+		FC3AFC6D1A9980B400B88182 /* TrackMyDeviceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3AFC6C1A9980B400B88182 /* TrackMyDeviceTests.m */; };
+		FC3AFC791A99811000B88182 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3AFC781A99811000B88182 /* HomeViewController.m */; };
+		FC3AFC7C1A99812800B88182 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3AFC7B1A99812800B88182 /* DetailViewController.m */; };
+		FC3AFC7F1A99815A00B88182 /* MainStoryboard-iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC3AFC7D1A99815A00B88182 /* MainStoryboard-iPad.storyboard */; };
+		FC3AFC821A99827700B88182 /* JourneyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3AFC811A99827700B88182 /* JourneyTableViewController.m */; };
+		FC3AFC8B1A9985DD00B88182 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3AFC8A1A9985DD00B88182 /* CoreData.framework */; };
+		FC3AFC8D1A9985E900B88182 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3AFC8C1A9985E900B88182 /* CoreLocation.framework */; };
+		FC3AFC8F1A9985F000B88182 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3AFC8E1A9985F000B88182 /* MapKit.framework */; };
+		FC3AFC911A9985F700B88182 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3AFC901A9985F700B88182 /* CoreGraphics.framework */; };
+		FC3AFC931A99860500B88182 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3AFC921A99860500B88182 /* UIKit.framework */; };
+		FC3AFC951A99861A00B88182 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3AFC941A99861A00B88182 /* Foundation.framework */; };
+		FC3AFC991A99928000B88182 /* MathController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3AFC981A99928000B88182 /* MathController.m */; };
+		FC3AFC9C1A9998C500B88182 /* TrackMyDevice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC3AFC9A1A9998C500B88182 /* TrackMyDevice.xcdatamodeld */; };
+		FC3AFC9F1A999A5A00B88182 /* Journey.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3AFC9E1A999A5A00B88182 /* Journey.m */; };
+		FC3AFCA21A999A5B00B88182 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3AFCA11A999A5B00B88182 /* Location.m */; };
+		FC3AFCA61A99B64400B88182 /* MulticolorPolylineSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3AFCA51A99B64400B88182 /* MulticolorPolylineSegment.m */; };
+		FC3AFCA91A9A029F00B88182 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3AFCA81A9A029F00B88182 /* MapViewController.m */; };
+		FCEA3EE51A9AD3230039B30F /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA3EE41A9AD3230039B30F /* BaseView.m */; };
+		FCEA3EEB1A9AD3890039B30F /* InitialView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA3EEA1A9AD3890039B30F /* InitialView.m */; };
+		FCEA3EEE1A9AD3BD0039B30F /* HomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA3EED1A9AD3BD0039B30F /* HomeView.m */; };
+		FCEA3EF11A9AD3DC0039B30F /* DetailsView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA3EF01A9AD3DC0039B30F /* DetailsView.m */; };
+		FCEA3EF41A9AD4030039B30F /* JourneyList.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA3EF31A9AD4030039B30F /* JourneyList.m */; };
+		FCEA3EF71A9ADEDC0039B30F /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA3EF61A9ADEDC0039B30F /* BaseViewController.m */; };
+		FCEA3EF91A9B606C0039B30F /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEA3EF81A9B606C0039B30F /* Social.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC3AFC671A9980B400B88182 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC3AFC421A9980B400B88182 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC3AFC491A9980B400B88182;
+			remoteInfo = TrackMyDevice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC3AFC4A1A9980B400B88182 /* TrackMyDevice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackMyDevice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC3AFC4E1A9980B400B88182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC3AFC4F1A9980B400B88182 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC3AFC511A9980B400B88182 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC3AFC521A9980B400B88182 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC3AFC571A9980B400B88182 /* InitialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InitialViewController.h; sourceTree = "<group>"; };
+		FC3AFC581A9980B400B88182 /* InitialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InitialViewController.m; sourceTree = "<group>"; };
+		FC3AFC5B1A9980B400B88182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		FC3AFC5D1A9980B400B88182 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC3AFC601A9980B400B88182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FC3AFC661A9980B400B88182 /* TrackMyDeviceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackMyDeviceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC3AFC6B1A9980B400B88182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC3AFC6C1A9980B400B88182 /* TrackMyDeviceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackMyDeviceTests.m; sourceTree = "<group>"; };
+		FC3AFC771A99811000B88182 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = ViewController/HomeViewController.h; sourceTree = "<group>"; };
+		FC3AFC781A99811000B88182 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = ViewController/HomeViewController.m; sourceTree = "<group>"; };
+		FC3AFC7A1A99812800B88182 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = ViewController/DetailViewController.h; sourceTree = "<group>"; };
+		FC3AFC7B1A99812800B88182 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = ViewController/DetailViewController.m; sourceTree = "<group>"; };
+		FC3AFC7E1A99815A00B88182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/MainStoryboard-iPad.storyboard"; sourceTree = "<group>"; };
+		FC3AFC801A99827700B88182 /* JourneyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JourneyTableViewController.h; path = ViewController/JourneyTableViewController.h; sourceTree = "<group>"; };
+		FC3AFC811A99827700B88182 /* JourneyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JourneyTableViewController.m; path = ViewController/JourneyTableViewController.m; sourceTree = "<group>"; };
+		FC3AFC8A1A9985DD00B88182 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FC3AFC8C1A9985E900B88182 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FC3AFC8E1A9985F000B88182 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FC3AFC901A9985F700B88182 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FC3AFC921A99860500B88182 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FC3AFC941A99861A00B88182 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FC3AFC971A99928000B88182 /* MathController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathController.h; sourceTree = "<group>"; };
+		FC3AFC981A99928000B88182 /* MathController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathController.m; sourceTree = "<group>"; };
+		FC3AFC9B1A9998C500B88182 /* TrackMyDevice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TrackMyDevice.xcdatamodel; sourceTree = "<group>"; };
+		FC3AFC9D1A999A5A00B88182 /* Journey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Journey.h; path = Modal/Journey.h; sourceTree = "<group>"; };
+		FC3AFC9E1A999A5A00B88182 /* Journey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Journey.m; path = Modal/Journey.m; sourceTree = "<group>"; };
+		FC3AFCA01A999A5B00B88182 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Location.h; path = Modal/Location.h; sourceTree = "<group>"; };
+		FC3AFCA11A999A5B00B88182 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Location.m; path = Modal/Location.m; sourceTree = "<group>"; };
+		FC3AFCA41A99B64400B88182 /* MulticolorPolylineSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MulticolorPolylineSegment.h; path = Helper/MulticolorPolylineSegment.h; sourceTree = "<group>"; };
+		FC3AFCA51A99B64400B88182 /* MulticolorPolylineSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MulticolorPolylineSegment.m; path = Helper/MulticolorPolylineSegment.m; sourceTree = "<group>"; };
+		FC3AFCA71A9A029F00B88182 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = ViewController/MapViewController.h; sourceTree = "<group>"; };
+		FC3AFCA81A9A029F00B88182 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = ViewController/MapViewController.m; sourceTree = "<group>"; };
+		FCEA3EE31A9AD3230039B30F /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseView.h; path = Views/BaseView.h; sourceTree = "<group>"; };
+		FCEA3EE41A9AD3230039B30F /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseView.m; path = Views/BaseView.m; sourceTree = "<group>"; };
+		FCEA3EE91A9AD3890039B30F /* InitialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InitialView.h; path = Views/InitialView.h; sourceTree = "<group>"; };
+		FCEA3EEA1A9AD3890039B30F /* InitialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InitialView.m; path = Views/InitialView.m; sourceTree = "<group>"; };
+		FCEA3EEC1A9AD3BD0039B30F /* HomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeView.h; path = Views/HomeView.h; sourceTree = "<group>"; };
+		FCEA3EED1A9AD3BD0039B30F /* HomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeView.m; path = Views/HomeView.m; sourceTree = "<group>"; };
+		FCEA3EEF1A9AD3DC0039B30F /* DetailsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailsView.h; path = Views/DetailsView.h; sourceTree = "<group>"; };
+		FCEA3EF01A9AD3DC0039B30F /* DetailsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailsView.m; path = Views/DetailsView.m; sourceTree = "<group>"; };
+		FCEA3EF21A9AD4030039B30F /* JourneyList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JourneyList.h; path = Views/JourneyList.h; sourceTree = "<group>"; };
+		FCEA3EF31A9AD4030039B30F /* JourneyList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JourneyList.m; path = Views/JourneyList.m; sourceTree = "<group>"; };
+		FCEA3EF51A9ADEDC0039B30F /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = ViewController/BaseViewController.h; sourceTree = "<group>"; };
+		FCEA3EF61A9ADEDC0039B30F /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = ViewController/BaseViewController.m; sourceTree = "<group>"; };
+		FCEA3EF81A9B606C0039B30F /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC3AFC471A9980B400B88182 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCEA3EF91A9B606C0039B30F /* Social.framework in Frameworks */,
+				FC3AFC951A99861A00B88182 /* Foundation.framework in Frameworks */,
+				FC3AFC931A99860500B88182 /* UIKit.framework in Frameworks */,
+				FC3AFC911A9985F700B88182 /* CoreGraphics.framework in Frameworks */,
+				FC3AFC8F1A9985F000B88182 /* MapKit.framework in Frameworks */,
+				FC3AFC8D1A9985E900B88182 /* CoreLocation.framework in Frameworks */,
+				FC3AFC8B1A9985DD00B88182 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC3AFC631A9980B400B88182 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC3AFC411A9980B400B88182 = {
+			isa = PBXGroup;
+			children = (
+				FC3AFC4C1A9980B400B88182 /* TrackMyDevice */,
+				FC3AFC691A9980B400B88182 /* TrackMyDeviceTests */,
+				FC3AFC4B1A9980B400B88182 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC3AFC4B1A9980B400B88182 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC3AFC4A1A9980B400B88182 /* TrackMyDevice.app */,
+				FC3AFC661A9980B400B88182 /* TrackMyDeviceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC3AFC4C1A9980B400B88182 /* TrackMyDevice */ = {
+			isa = PBXGroup;
+			children = (
+				FCEA3EE21A9AD2FE0039B30F /* Views */,
+				FC3AFCA31A99B60600B88182 /* Helper */,
+				FC3AFC961A99870B00B88182 /* Framework */,
+				FC3AFC831A99846C00B88182 /* Modal */,
+				FC3AFC761A9980C000B88182 /* ViewControllers */,
+				FC3AFC511A9980B400B88182 /* AppDelegate.h */,
+				FC3AFC521A9980B400B88182 /* AppDelegate.m */,
+				FC3AFC5A1A9980B400B88182 /* MainStoryboard.storyboard */,
+				FC3AFC5D1A9980B400B88182 /* Images.xcassets */,
+				FC3AFC5F1A9980B400B88182 /* LaunchScreen.xib */,
+				FC3AFC4D1A9980B400B88182 /* Supporting Files */,
+				FC3AFC7D1A99815A00B88182 /* MainStoryboard-iPad.storyboard */,
+			);
+			path = TrackMyDevice;
+			sourceTree = "<group>";
+		};
+		FC3AFC4D1A9980B400B88182 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC3AFC4E1A9980B400B88182 /* Info.plist */,
+				FC3AFC4F1A9980B400B88182 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC3AFC691A9980B400B88182 /* TrackMyDeviceTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC3AFC6C1A9980B400B88182 /* TrackMyDeviceTests.m */,
+				FC3AFC6A1A9980B400B88182 /* Supporting Files */,
+			);
+			path = TrackMyDeviceTests;
+			sourceTree = "<group>";
+		};
+		FC3AFC6A1A9980B400B88182 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC3AFC6B1A9980B400B88182 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC3AFC761A9980C000B88182 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FC3AFC771A99811000B88182 /* HomeViewController.h */,
+				FC3AFC781A99811000B88182 /* HomeViewController.m */,
+				FC3AFC7A1A99812800B88182 /* DetailViewController.h */,
+				FC3AFC7B1A99812800B88182 /* DetailViewController.m */,
+				FC3AFC571A9980B400B88182 /* InitialViewController.h */,
+				FC3AFC581A9980B400B88182 /* InitialViewController.m */,
+				FC3AFC801A99827700B88182 /* JourneyTableViewController.h */,
+				FC3AFC811A99827700B88182 /* JourneyTableViewController.m */,
+				FC3AFCA71A9A029F00B88182 /* MapViewController.h */,
+				FC3AFCA81A9A029F00B88182 /* MapViewController.m */,
+				FCEA3EF51A9ADEDC0039B30F /* BaseViewController.h */,
+				FCEA3EF61A9ADEDC0039B30F /* BaseViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FC3AFC831A99846C00B88182 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				FC3AFC9A1A9998C500B88182 /* TrackMyDevice.xcdatamodeld */,
+				FC3AFCA01A999A5B00B88182 /* Location.h */,
+				FC3AFCA11A999A5B00B88182 /* Location.m */,
+				FC3AFC9D1A999A5A00B88182 /* Journey.h */,
+				FC3AFC9E1A999A5A00B88182 /* Journey.m */,
+			);
+			name = Modal;
+			sourceTree = "<group>";
+		};
+		FC3AFC961A99870B00B88182 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				FCEA3EF81A9B606C0039B30F /* Social.framework */,
+				FC3AFC941A99861A00B88182 /* Foundation.framework */,
+				FC3AFC921A99860500B88182 /* UIKit.framework */,
+				FC3AFC901A9985F700B88182 /* CoreGraphics.framework */,
+				FC3AFC8E1A9985F000B88182 /* MapKit.framework */,
+				FC3AFC8C1A9985E900B88182 /* CoreLocation.framework */,
+				FC3AFC8A1A9985DD00B88182 /* CoreData.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		FC3AFCA31A99B60600B88182 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FC3AFCA41A99B64400B88182 /* MulticolorPolylineSegment.h */,
+				FC3AFCA51A99B64400B88182 /* MulticolorPolylineSegment.m */,
+				FC3AFC971A99928000B88182 /* MathController.h */,
+				FC3AFC981A99928000B88182 /* MathController.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		FCEA3EE21A9AD2FE0039B30F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FCEA3EE91A9AD3890039B30F /* InitialView.h */,
+				FCEA3EEA1A9AD3890039B30F /* InitialView.m */,
+				FCEA3EE31A9AD3230039B30F /* BaseView.h */,
+				FCEA3EE41A9AD3230039B30F /* BaseView.m */,
+				FCEA3EEC1A9AD3BD0039B30F /* HomeView.h */,
+				FCEA3EED1A9AD3BD0039B30F /* HomeView.m */,
+				FCEA3EEF1A9AD3DC0039B30F /* DetailsView.h */,
+				FCEA3EF01A9AD3DC0039B30F /* DetailsView.m */,
+				FCEA3EF21A9AD4030039B30F /* JourneyList.h */,
+				FCEA3EF31A9AD4030039B30F /* JourneyList.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC3AFC491A9980B400B88182 /* TrackMyDevice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC3AFC701A9980B400B88182 /* Build configuration list for PBXNativeTarget "TrackMyDevice" */;
+			buildPhases = (
+				FC3AFC461A9980B400B88182 /* Sources */,
+				FC3AFC471A9980B400B88182 /* Frameworks */,
+				FC3AFC481A9980B400B88182 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrackMyDevice;
+			productName = TrackMyDevice;
+			productReference = FC3AFC4A1A9980B400B88182 /* TrackMyDevice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC3AFC651A9980B400B88182 /* TrackMyDeviceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC3AFC731A9980B400B88182 /* Build configuration list for PBXNativeTarget "TrackMyDeviceTests" */;
+			buildPhases = (
+				FC3AFC621A9980B400B88182 /* Sources */,
+				FC3AFC631A9980B400B88182 /* Frameworks */,
+				FC3AFC641A9980B400B88182 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC3AFC681A9980B400B88182 /* PBXTargetDependency */,
+			);
+			name = TrackMyDeviceTests;
+			productName = TrackMyDeviceTests;
+			productReference = FC3AFC661A9980B400B88182 /* TrackMyDeviceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC3AFC421A9980B400B88182 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Muthuraj Muthulingam";
+				TargetAttributes = {
+					FC3AFC491A9980B400B88182 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 5CNN55283J;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					FC3AFC651A9980B400B88182 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = FC3AFC491A9980B400B88182;
+					};
+				};
+			};
+			buildConfigurationList = FC3AFC451A9980B400B88182 /* Build configuration list for PBXProject "TrackMyDevice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC3AFC411A9980B400B88182;
+			productRefGroup = FC3AFC4B1A9980B400B88182 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC3AFC491A9980B400B88182 /* TrackMyDevice */,
+				FC3AFC651A9980B400B88182 /* TrackMyDeviceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC3AFC481A9980B400B88182 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3AFC5C1A9980B400B88182 /* MainStoryboard.storyboard in Resources */,
+				FC3AFC7F1A99815A00B88182 /* MainStoryboard-iPad.storyboard in Resources */,
+				FC3AFC611A9980B400B88182 /* LaunchScreen.xib in Resources */,
+				FC3AFC5E1A9980B400B88182 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC3AFC641A9980B400B88182 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC3AFC461A9980B400B88182 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3AFC821A99827700B88182 /* JourneyTableViewController.m in Sources */,
+				FCEA3EF71A9ADEDC0039B30F /* BaseViewController.m in Sources */,
+				FCEA3EF41A9AD4030039B30F /* JourneyList.m in Sources */,
+				FC3AFCA61A99B64400B88182 /* MulticolorPolylineSegment.m in Sources */,
+				FC3AFC531A9980B400B88182 /* AppDelegate.m in Sources */,
+				FC3AFCA91A9A029F00B88182 /* MapViewController.m in Sources */,
+				FC3AFC591A9980B400B88182 /* InitialViewController.m in Sources */,
+				FC3AFC791A99811000B88182 /* HomeViewController.m in Sources */,
+				FCEA3EE51A9AD3230039B30F /* BaseView.m in Sources */,
+				FC3AFC9F1A999A5A00B88182 /* Journey.m in Sources */,
+				FC3AFC501A9980B400B88182 /* main.m in Sources */,
+				FCEA3EF11A9AD3DC0039B30F /* DetailsView.m in Sources */,
+				FC3AFCA21A999A5B00B88182 /* Location.m in Sources */,
+				FC3AFC7C1A99812800B88182 /* DetailViewController.m in Sources */,
+				FCEA3EEB1A9AD3890039B30F /* InitialView.m in Sources */,
+				FCEA3EEE1A9AD3BD0039B30F /* HomeView.m in Sources */,
+				FC3AFC9C1A9998C500B88182 /* TrackMyDevice.xcdatamodeld in Sources */,
+				FC3AFC991A99928000B88182 /* MathController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC3AFC621A9980B400B88182 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3AFC6D1A9980B400B88182 /* TrackMyDeviceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC3AFC681A9980B400B88182 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC3AFC491A9980B400B88182 /* TrackMyDevice */;
+			targetProxy = FC3AFC671A9980B400B88182 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC3AFC5A1A9980B400B88182 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC3AFC5B1A9980B400B88182 /* Base */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		FC3AFC5F1A9980B400B88182 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC3AFC601A9980B400B88182 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		FC3AFC7D1A99815A00B88182 /* MainStoryboard-iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC3AFC7E1A99815A00B88182 /* Base */,
+			);
+			name = "MainStoryboard-iPad.storyboard";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC3AFC6E1A9980B400B88182 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC3AFC6F1A9980B400B88182 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC3AFC711A9980B400B88182 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Market Simplified Inc";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Market Simplified Inc";
+				INFOPLIST_FILE = TrackMyDevice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a481ca68-ac16-408d-ba08-d415f6a77b59";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC3AFC721A9980B400B88182 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Market Simplified Inc";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Market Simplified Inc";
+				INFOPLIST_FILE = TrackMyDevice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a481ca68-ac16-408d-ba08-d415f6a77b59";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC3AFC741A9980B400B88182 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TrackMyDeviceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrackMyDevice.app/TrackMyDevice";
+			};
+			name = Debug;
+		};
+		FC3AFC751A9980B400B88182 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TrackMyDeviceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrackMyDevice.app/TrackMyDevice";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC3AFC451A9980B400B88182 /* Build configuration list for PBXProject "TrackMyDevice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC3AFC6E1A9980B400B88182 /* Debug */,
+				FC3AFC6F1A9980B400B88182 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC3AFC701A9980B400B88182 /* Build configuration list for PBXNativeTarget "TrackMyDevice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC3AFC711A9980B400B88182 /* Debug */,
+				FC3AFC721A9980B400B88182 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC3AFC731A9980B400B88182 /* Build configuration list for PBXNativeTarget "TrackMyDeviceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC3AFC741A9980B400B88182 /* Debug */,
+				FC3AFC751A9980B400B88182 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FC3AFC9A1A9998C500B88182 /* TrackMyDevice.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FC3AFC9B1A9998C500B88182 /* TrackMyDevice.xcdatamodel */,
+			);
+			currentVersion = FC3AFC9B1A9998C500B88182 /* TrackMyDevice.xcdatamodel */;
+			name = TrackMyDevice.xcdatamodeld;
+			path = Modal/TrackMyDevice.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FC3AFC421A9980B400B88182 /* Project object */;
+}

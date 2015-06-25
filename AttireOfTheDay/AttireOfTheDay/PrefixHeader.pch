@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  AttireOfTheDay
+//
+//  Created by Muthuraj M on 5/19/15.
+//  Copyright (c) 2015 Muthuraj Muthulingam. All rights reserved.
+//
+
+#ifndef AttireOfTheDay_PrefixHeader_pch
+#define AttireOfTheDay_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+
+#endif

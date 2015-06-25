@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC4BC13F1AF8DA7E006CBCA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4BC13E1AF8DA7E006CBCA0 /* main.m */; };
+		FC4BC1421AF8DA7F006CBCA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4BC1411AF8DA7F006CBCA0 /* AppDelegate.m */; };
+		FC4BC14A1AF8DA80006CBCA0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC4BC1491AF8DA80006CBCA0 /* Images.xcassets */; };
+		FC4BC14D1AF8DA80006CBCA0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC4BC14B1AF8DA80006CBCA0 /* LaunchScreen.xib */; };
+		FC4BC1591AF8DA8D006CBCA0 /* GamesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4BC1581AF8DA8D006CBCA0 /* GamesTests.m */; };
+		FC5422831AF8FABA00F7D763 /* FeaturedListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5422821AF8FABA00F7D763 /* FeaturedListViewController.m */; };
+		FC5422861AF8FAD000F7D763 /* FootBallListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5422851AF8FAD000F7D763 /* FootBallListViewController.m */; };
+		FC5422891AF8FAE900F7D763 /* CricketListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5422881AF8FAE900F7D763 /* CricketListViewController.m */; };
+		FC54229C1AF8FD8000F7D763 /* DataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FC54228C1AF8FD8000F7D763 /* DataParser.m */; };
+		FC54229D1AF8FD8000F7D763 /* ImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FC54228F1AF8FD8000F7D763 /* ImageCache.m */; };
+		FC54229F1AF8FD8000F7D763 /* ImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5422941AF8FD8000F7D763 /* ImageDownloader.m */; };
+		FC5422A01AF8FD8000F7D763 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5422981AF8FD8000F7D763 /* MBProgressHUD.m */; };
+		FC5422A11AF8FD8000F7D763 /* ServerHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FC54229B1AF8FD8000F7D763 /* ServerHandler.m */; };
+		FC60C7051AF9FBC200988B2B /* CommonProcessingAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = FC60C7041AF9FBC200988B2B /* CommonProcessingAPI.m */; };
+		FC60C7081AFA521400988B2B /* GenericTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC60C7071AFA521400988B2B /* GenericTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC4BC1531AF8DA8D006CBCA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC4BC1311AF8DA7B006CBCA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC4BC1381AF8DA7D006CBCA0;
+			remoteInfo = Games;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC4BC1391AF8DA7D006CBCA0 /* Games.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Games.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC4BC13D1AF8DA7E006CBCA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC4BC13E1AF8DA7E006CBCA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC4BC1401AF8DA7F006CBCA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC4BC1411AF8DA7F006CBCA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC4BC1491AF8DA80006CBCA0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC4BC14C1AF8DA80006CBCA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FC4BC1521AF8DA8D006CBCA0 /* GamesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GamesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC4BC1571AF8DA8D006CBCA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC4BC1581AF8DA8D006CBCA0 /* GamesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GamesTests.m; sourceTree = "<group>"; };
+		FC5422811AF8FABA00F7D763 /* FeaturedListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FeaturedListViewController.h; path = ViewController/FeaturedListViewController.h; sourceTree = "<group>"; };
+		FC5422821AF8FABA00F7D763 /* FeaturedListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FeaturedListViewController.m; path = ViewController/FeaturedListViewController.m; sourceTree = "<group>"; };
+		FC5422841AF8FAD000F7D763 /* FootBallListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FootBallListViewController.h; path = ViewController/FootBallListViewController.h; sourceTree = "<group>"; };
+		FC5422851AF8FAD000F7D763 /* FootBallListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FootBallListViewController.m; path = ViewController/FootBallListViewController.m; sourceTree = "<group>"; };
+		FC5422871AF8FAE900F7D763 /* CricketListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CricketListViewController.h; path = ViewController/CricketListViewController.h; sourceTree = "<group>"; };
+		FC5422881AF8FAE900F7D763 /* CricketListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CricketListViewController.m; path = ViewController/CricketListViewController.m; sourceTree = "<group>"; };
+		FC54228B1AF8FD8000F7D763 /* DataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataParser.h; sourceTree = "<group>"; };
+		FC54228C1AF8FD8000F7D763 /* DataParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataParser.m; sourceTree = "<group>"; };
+		FC54228E1AF8FD8000F7D763 /* ImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCache.h; sourceTree = "<group>"; };
+		FC54228F1AF8FD8000F7D763 /* ImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCache.m; sourceTree = "<group>"; };
+		FC5422931AF8FD8000F7D763 /* ImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDownloader.h; sourceTree = "<group>"; };
+		FC5422941AF8FD8000F7D763 /* ImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDownloader.m; sourceTree = "<group>"; };
+		FC5422971AF8FD8000F7D763 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		FC5422981AF8FD8000F7D763 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		FC54229A1AF8FD8000F7D763 /* ServerHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerHandler.h; sourceTree = "<group>"; };
+		FC54229B1AF8FD8000F7D763 /* ServerHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerHandler.m; sourceTree = "<group>"; };
+		FC60C7031AF9FBC200988B2B /* CommonProcessingAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonProcessingAPI.h; path = ViewController/CommonProcessingAPI.h; sourceTree = "<group>"; };
+		FC60C7041AF9FBC200988B2B /* CommonProcessingAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommonProcessingAPI.m; path = ViewController/CommonProcessingAPI.m; sourceTree = "<group>"; };
+		FC60C7061AFA521400988B2B /* GenericTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GenericTableViewCell.h; path = Views/GenericTableViewCell.h; sourceTree = "<group>"; };
+		FC60C7071AFA521400988B2B /* GenericTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GenericTableViewCell.m; path = Views/GenericTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC4BC1361AF8DA7D006CBCA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4BC14F1AF8DA8D006CBCA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC4BC1301AF8DA7B006CBCA0 = {
+			isa = PBXGroup;
+			children = (
+				FC4BC13B1AF8DA7D006CBCA0 /* Games */,
+				FC4BC1551AF8DA8D006CBCA0 /* GamesTests */,
+				FC4BC13A1AF8DA7D006CBCA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC4BC13A1AF8DA7D006CBCA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC4BC1391AF8DA7D006CBCA0 /* Games.app */,
+				FC4BC1521AF8DA8D006CBCA0 /* GamesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC4BC13B1AF8DA7D006CBCA0 /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				FC54228A1AF8FD8000F7D763 /* DataParser */,
+				FC54228D1AF8FD8000F7D763 /* ImageCache */,
+				FC5422901AF8FD8000F7D763 /* ImageDownloader */,
+				FC5422951AF8FD8000F7D763 /* MBProgressHUD */,
+				FC5422991AF8FD8000F7D763 /* ServerHandler */,
+				FC5422741AF8F99200F7D763 /* Views */,
+				FC5422731AF8F98000F7D763 /* ViewController */,
+				FC4BC1401AF8DA7F006CBCA0 /* AppDelegate.h */,
+				FC4BC1411AF8DA7F006CBCA0 /* AppDelegate.m */,
+				FC4BC1491AF8DA80006CBCA0 /* Images.xcassets */,
+				FC4BC14B1AF8DA80006CBCA0 /* LaunchScreen.xib */,
+				FC4BC13C1AF8DA7E006CBCA0 /* Supporting Files */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		FC4BC13C1AF8DA7E006CBCA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC4BC13D1AF8DA7E006CBCA0 /* Info.plist */,
+				FC4BC13E1AF8DA7E006CBCA0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC4BC1551AF8DA8D006CBCA0 /* GamesTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC4BC1581AF8DA8D006CBCA0 /* GamesTests.m */,
+				FC4BC1561AF8DA8D006CBCA0 /* Supporting Files */,
+			);
+			path = GamesTests;
+			sourceTree = "<group>";
+		};
+		FC4BC1561AF8DA8D006CBCA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC4BC1571AF8DA8D006CBCA0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC5422731AF8F98000F7D763 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FC5422811AF8FABA00F7D763 /* FeaturedListViewController.h */,
+				FC5422821AF8FABA00F7D763 /* FeaturedListViewController.m */,
+				FC5422841AF8FAD000F7D763 /* FootBallListViewController.h */,
+				FC5422851AF8FAD000F7D763 /* FootBallListViewController.m */,
+				FC5422871AF8FAE900F7D763 /* CricketListViewController.h */,
+				FC5422881AF8FAE900F7D763 /* CricketListViewController.m */,
+				FC60C7031AF9FBC200988B2B /* CommonProcessingAPI.h */,
+				FC60C7041AF9FBC200988B2B /* CommonProcessingAPI.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		FC5422741AF8F99200F7D763 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FC60C7061AFA521400988B2B /* GenericTableViewCell.h */,
+				FC60C7071AFA521400988B2B /* GenericTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		FC54228A1AF8FD8000F7D763 /* DataParser */ = {
+			isa = PBXGroup;
+			children = (
+				FC54228B1AF8FD8000F7D763 /* DataParser.h */,
+				FC54228C1AF8FD8000F7D763 /* DataParser.m */,
+			);
+			path = DataParser;
+			sourceTree = "<group>";
+		};
+		FC54228D1AF8FD8000F7D763 /* ImageCache */ = {
+			isa = PBXGroup;
+			children = (
+				FC54228E1AF8FD8000F7D763 /* ImageCache.h */,
+				FC54228F1AF8FD8000F7D763 /* ImageCache.m */,
+			);
+			path = ImageCache;
+			sourceTree = "<group>";
+		};
+		FC5422901AF8FD8000F7D763 /* ImageDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				FC5422931AF8FD8000F7D763 /* ImageDownloader.h */,
+				FC5422941AF8FD8000F7D763 /* ImageDownloader.m */,
+			);
+			path = ImageDownloader;
+			sourceTree = "<group>";
+		};
+		FC5422951AF8FD8000F7D763 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				FC5422961AF8FD8000F7D763 /* LocationSorter */,
+				FC5422971AF8FD8000F7D763 /* MBProgressHUD.h */,
+				FC5422981AF8FD8000F7D763 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		FC5422961AF8FD8000F7D763 /* LocationSorter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LocationSorter;
+			sourceTree = "<group>";
+		};
+		FC5422991AF8FD8000F7D763 /* ServerHandler */ = {
+			isa = PBXGroup;
+			children = (
+				FC54229A1AF8FD8000F7D763 /* ServerHandler.h */,
+				FC54229B1AF8FD8000F7D763 /* ServerHandler.m */,
+			);
+			path = ServerHandler;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC4BC1381AF8DA7D006CBCA0 /* Games */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC4BC15C1AF8DA8E006CBCA0 /* Build configuration list for PBXNativeTarget "Games" */;
+			buildPhases = (
+				FC4BC1351AF8DA7D006CBCA0 /* Sources */,
+				FC4BC1361AF8DA7D006CBCA0 /* Frameworks */,
+				FC4BC1371AF8DA7D006CBCA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Games;
+			productName = Games;
+			productReference = FC4BC1391AF8DA7D006CBCA0 /* Games.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC4BC1511AF8DA8D006CBCA0 /* GamesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC4BC15F1AF8DA8E006CBCA0 /* Build configuration list for PBXNativeTarget "GamesTests" */;
+			buildPhases = (
+				FC4BC14E1AF8DA8D006CBCA0 /* Sources */,
+				FC4BC14F1AF8DA8D006CBCA0 /* Frameworks */,
+				FC4BC1501AF8DA8D006CBCA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC4BC1541AF8DA8D006CBCA0 /* PBXTargetDependency */,
+			);
+			name = GamesTests;
+			productName = GamesTests;
+			productReference = FC4BC1521AF8DA8D006CBCA0 /* GamesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC4BC1311AF8DA7B006CBCA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Muthuraj Muthulingam";
+				TargetAttributes = {
+					FC4BC1381AF8DA7D006CBCA0 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					FC4BC1511AF8DA8D006CBCA0 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = FC4BC1381AF8DA7D006CBCA0;
+					};
+				};
+			};
+			buildConfigurationList = FC4BC1341AF8DA7C006CBCA0 /* Build configuration list for PBXProject "Games" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC4BC1301AF8DA7B006CBCA0;
+			productRefGroup = FC4BC13A1AF8DA7D006CBCA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC4BC1381AF8DA7D006CBCA0 /* Games */,
+				FC4BC1511AF8DA8D006CBCA0 /* GamesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC4BC1371AF8DA7D006CBCA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4BC14D1AF8DA80006CBCA0 /* LaunchScreen.xib in Resources */,
+				FC4BC14A1AF8DA80006CBCA0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4BC1501AF8DA8D006CBCA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC4BC1351AF8DA7D006CBCA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5422831AF8FABA00F7D763 /* FeaturedListViewController.m in Sources */,
+				FC5422861AF8FAD000F7D763 /* FootBallListViewController.m in Sources */,
+				FC4BC1421AF8DA7F006CBCA0 /* AppDelegate.m in Sources */,
+				FC54229F1AF8FD8000F7D763 /* ImageDownloader.m in Sources */,
+				FC5422891AF8FAE900F7D763 /* CricketListViewController.m in Sources */,
+				FC54229C1AF8FD8000F7D763 /* DataParser.m in Sources */,
+				FC4BC13F1AF8DA7E006CBCA0 /* main.m in Sources */,
+				FC5422A01AF8FD8000F7D763 /* MBProgressHUD.m in Sources */,
+				FC60C7051AF9FBC200988B2B /* CommonProcessingAPI.m in Sources */,
+				FC54229D1AF8FD8000F7D763 /* ImageCache.m in Sources */,
+				FC5422A11AF8FD8000F7D763 /* ServerHandler.m in Sources */,
+				FC60C7081AFA521400988B2B /* GenericTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4BC14E1AF8DA8D006CBCA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4BC1591AF8DA8D006CBCA0 /* GamesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC4BC1541AF8DA8D006CBCA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC4BC1381AF8DA7D006CBCA0 /* Games */;
+			targetProxy = FC4BC1531AF8DA8D006CBCA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC4BC14B1AF8DA80006CBCA0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC4BC14C1AF8DA80006CBCA0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC4BC15A1AF8DA8D006CBCA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC4BC15B1AF8DA8D006CBCA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC4BC15D1AF8DA8E006CBCA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Games/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC4BC15E1AF8DA8E006CBCA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Games/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FC4BC1601AF8DA8E006CBCA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GamesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Games.app/Games";
+			};
+			name = Debug;
+		};
+		FC4BC1611AF8DA8E006CBCA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GamesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Games.app/Games";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC4BC1341AF8DA7C006CBCA0 /* Build configuration list for PBXProject "Games" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC4BC15A1AF8DA8D006CBCA0 /* Debug */,
+				FC4BC15B1AF8DA8D006CBCA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC4BC15C1AF8DA8E006CBCA0 /* Build configuration list for PBXNativeTarget "Games" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC4BC15D1AF8DA8E006CBCA0 /* Debug */,
+				FC4BC15E1AF8DA8E006CBCA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC4BC15F1AF8DA8E006CBCA0 /* Build configuration list for PBXNativeTarget "GamesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC4BC1601AF8DA8E006CBCA0 /* Debug */,
+				FC4BC1611AF8DA8E006CBCA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC4BC1311AF8DA7B006CBCA0 /* Project object */;
+}

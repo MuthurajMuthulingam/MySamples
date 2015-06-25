@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC3F9EE71A6F489C0095871C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3F9EE61A6F489C0095871C /* main.m */; };
+		FC3F9EEA1A6F489C0095871C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3F9EE91A6F489C0095871C /* AppDelegate.m */; };
+		FC3F9EED1A6F489C0095871C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3F9EEC1A6F489C0095871C /* ViewController.m */; };
+		FC3F9EF01A6F489C0095871C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC3F9EEE1A6F489C0095871C /* Main.storyboard */; };
+		FC3F9EF21A6F489C0095871C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC3F9EF11A6F489C0095871C /* Images.xcassets */; };
+		FC3F9EF51A6F489C0095871C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC3F9EF31A6F489C0095871C /* LaunchScreen.xib */; };
+		FC3F9F011A6F489C0095871C /* FindMyRestaurentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3F9F001A6F489C0095871C /* FindMyRestaurentTests.m */; };
+		FC3F9F2B1A6F48DF0095871C /* DataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3F9F0C1A6F48DF0095871C /* DataParser.m */; };
+		FC3F9F2C1A6F48DF0095871C /* ImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3F9F0F1A6F48DF0095871C /* ImageCache.m */; };
+		FC3F9F2D1A6F48DF0095871C /* AsynchronousImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3F9F121A6F48DF0095871C /* AsynchronousImageDownloader.m */; };
+		FC3F9F2E1A6F48DF0095871C /* ImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3F9F141A6F48DF0095871C /* ImageDownloader.m */; };
+		FC3F9F2F1A6F48DF0095871C /* LocationSorter.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3F9F171A6F48DF0095871C /* LocationSorter.m */; };
+		FC3F9F301A6F48DF0095871C /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3F9F1B1A6F48DF0095871C /* MBProgressHUD.m */; };
+		FC3F9F311A6F48DF0095871C /* ServerHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3F9F1E1A6F48DF0095871C /* ServerHandler.m */; };
+		FC3F9F321A6F48DF0095871C /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3F9F211A6F48DF0095871C /* BaseViewController.m */; };
+		FC3F9F331A6F48DF0095871C /* RestaurentDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3F9F231A6F48DF0095871C /* RestaurentDetailsViewController.m */; };
+		FC3F9F341A6F48DF0095871C /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3F9F261A6F48DF0095871C /* BaseView.m */; };
+		FC3F9F351A6F48DF0095871C /* ImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3F9F281A6F48DF0095871C /* ImageViewCell.m */; };
+		FC3F9F361A6F48DF0095871C /* RestaurentDetailsView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3F9F2A1A6F48DF0095871C /* RestaurentDetailsView.m */; };
+		FC3F9F381A6F490A0095871C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3F9F371A6F490A0095871C /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC3F9EFB1A6F489C0095871C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC3F9ED91A6F489C0095871C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC3F9EE01A6F489C0095871C;
+			remoteInfo = FindMyRestaurent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC3F9EE11A6F489C0095871C /* FindMyRestaurent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMyRestaurent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC3F9EE51A6F489C0095871C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC3F9EE61A6F489C0095871C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC3F9EE81A6F489C0095871C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC3F9EE91A6F489C0095871C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC3F9EEB1A6F489C0095871C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = FindMyRestaurent/ViewController.h; sourceTree = SOURCE_ROOT; };
+		FC3F9EEC1A6F489C0095871C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = FindMyRestaurent/ViewController.m; sourceTree = SOURCE_ROOT; };
+		FC3F9EEF1A6F489C0095871C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC3F9EF11A6F489C0095871C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC3F9EF41A6F489C0095871C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FC3F9EFA1A6F489C0095871C /* FindMyRestaurentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMyRestaurentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC3F9EFF1A6F489C0095871C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC3F9F001A6F489C0095871C /* FindMyRestaurentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindMyRestaurentTests.m; sourceTree = "<group>"; };
+		FC3F9F0B1A6F48DF0095871C /* DataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataParser.h; sourceTree = "<group>"; };
+		FC3F9F0C1A6F48DF0095871C /* DataParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataParser.m; sourceTree = "<group>"; };
+		FC3F9F0E1A6F48DF0095871C /* ImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCache.h; sourceTree = "<group>"; };
+		FC3F9F0F1A6F48DF0095871C /* ImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCache.m; sourceTree = "<group>"; };
+		FC3F9F111A6F48DF0095871C /* AsynchronousImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsynchronousImageDownloader.h; sourceTree = "<group>"; };
+		FC3F9F121A6F48DF0095871C /* AsynchronousImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsynchronousImageDownloader.m; sourceTree = "<group>"; };
+		FC3F9F131A6F48DF0095871C /* ImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDownloader.h; sourceTree = "<group>"; };
+		FC3F9F141A6F48DF0095871C /* ImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDownloader.m; sourceTree = "<group>"; };
+		FC3F9F161A6F48DF0095871C /* LocationSorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationSorter.h; sourceTree = "<group>"; };
+		FC3F9F171A6F48DF0095871C /* LocationSorter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationSorter.m; sourceTree = "<group>"; };
+		FC3F9F1A1A6F48DF0095871C /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		FC3F9F1B1A6F48DF0095871C /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		FC3F9F1D1A6F48DF0095871C /* ServerHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerHandler.h; sourceTree = "<group>"; };
+		FC3F9F1E1A6F48DF0095871C /* ServerHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerHandler.m; sourceTree = "<group>"; };
+		FC3F9F201A6F48DF0095871C /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		FC3F9F211A6F48DF0095871C /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		FC3F9F221A6F48DF0095871C /* RestaurentDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurentDetailsViewController.h; sourceTree = "<group>"; };
+		FC3F9F231A6F48DF0095871C /* RestaurentDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurentDetailsViewController.m; sourceTree = "<group>"; };
+		FC3F9F251A6F48DF0095871C /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		FC3F9F261A6F48DF0095871C /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		FC3F9F271A6F48DF0095871C /* ImageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewCell.h; sourceTree = "<group>"; };
+		FC3F9F281A6F48DF0095871C /* ImageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewCell.m; sourceTree = "<group>"; };
+		FC3F9F291A6F48DF0095871C /* RestaurentDetailsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurentDetailsView.h; sourceTree = "<group>"; };
+		FC3F9F2A1A6F48DF0095871C /* RestaurentDetailsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurentDetailsView.m; sourceTree = "<group>"; };
+		FC3F9F371A6F490A0095871C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC3F9EDE1A6F489C0095871C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3F9F381A6F490A0095871C /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC3F9EF71A6F489C0095871C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC3F9ED81A6F489C0095871C = {
+			isa = PBXGroup;
+			children = (
+				FC3F9F371A6F490A0095871C /* CoreLocation.framework */,
+				FC3F9EE31A6F489C0095871C /* FindMyRestaurent */,
+				FC3F9EFD1A6F489C0095871C /* FindMyRestaurentTests */,
+				FC3F9EE21A6F489C0095871C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC3F9EE21A6F489C0095871C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC3F9EE11A6F489C0095871C /* FindMyRestaurent.app */,
+				FC3F9EFA1A6F489C0095871C /* FindMyRestaurentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC3F9EE31A6F489C0095871C /* FindMyRestaurent */ = {
+			isa = PBXGroup;
+			children = (
+				FC3F9F0A1A6F48DF0095871C /* DataParser */,
+				FC3F9F0D1A6F48DF0095871C /* ImageCache */,
+				FC3F9F101A6F48DF0095871C /* ImageDownloader */,
+				FC3F9F151A6F48DF0095871C /* LocationSorter */,
+				FC3F9F181A6F48DF0095871C /* MBProgressHUD */,
+				FC3F9F1C1A6F48DF0095871C /* ServerHandler */,
+				FC3F9F1F1A6F48DF0095871C /* ViewController */,
+				FC3F9F241A6F48DF0095871C /* Views */,
+				FC3F9EE81A6F489C0095871C /* AppDelegate.h */,
+				FC3F9EE91A6F489C0095871C /* AppDelegate.m */,
+				FC3F9EEE1A6F489C0095871C /* Main.storyboard */,
+				FC3F9EF11A6F489C0095871C /* Images.xcassets */,
+				FC3F9EF31A6F489C0095871C /* LaunchScreen.xib */,
+				FC3F9EE41A6F489C0095871C /* Supporting Files */,
+			);
+			path = FindMyRestaurent;
+			sourceTree = "<group>";
+		};
+		FC3F9EE41A6F489C0095871C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC3F9EE51A6F489C0095871C /* Info.plist */,
+				FC3F9EE61A6F489C0095871C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC3F9EFD1A6F489C0095871C /* FindMyRestaurentTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC3F9F001A6F489C0095871C /* FindMyRestaurentTests.m */,
+				FC3F9EFE1A6F489C0095871C /* Supporting Files */,
+			);
+			path = FindMyRestaurentTests;
+			sourceTree = "<group>";
+		};
+		FC3F9EFE1A6F489C0095871C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC3F9EFF1A6F489C0095871C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC3F9F0A1A6F48DF0095871C /* DataParser */ = {
+			isa = PBXGroup;
+			children = (
+				FC3F9F0B1A6F48DF0095871C /* DataParser.h */,
+				FC3F9F0C1A6F48DF0095871C /* DataParser.m */,
+			);
+			path = DataParser;
+			sourceTree = "<group>";
+		};
+		FC3F9F0D1A6F48DF0095871C /* ImageCache */ = {
+			isa = PBXGroup;
+			children = (
+				FC3F9F0E1A6F48DF0095871C /* ImageCache.h */,
+				FC3F9F0F1A6F48DF0095871C /* ImageCache.m */,
+			);
+			path = ImageCache;
+			sourceTree = "<group>";
+		};
+		FC3F9F101A6F48DF0095871C /* ImageDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				FC3F9F111A6F48DF0095871C /* AsynchronousImageDownloader.h */,
+				FC3F9F121A6F48DF0095871C /* AsynchronousImageDownloader.m */,
+				FC3F9F131A6F48DF0095871C /* ImageDownloader.h */,
+				FC3F9F141A6F48DF0095871C /* ImageDownloader.m */,
+			);
+			path = ImageDownloader;
+			sourceTree = "<group>";
+		};
+		FC3F9F151A6F48DF0095871C /* LocationSorter */ = {
+			isa = PBXGroup;
+			children = (
+				FC3F9F161A6F48DF0095871C /* LocationSorter.h */,
+				FC3F9F171A6F48DF0095871C /* LocationSorter.m */,
+			);
+			path = LocationSorter;
+			sourceTree = "<group>";
+		};
+		FC3F9F181A6F48DF0095871C /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				FC3F9F191A6F48DF0095871C /* LocationSorter */,
+				FC3F9F1A1A6F48DF0095871C /* MBProgressHUD.h */,
+				FC3F9F1B1A6F48DF0095871C /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		FC3F9F191A6F48DF0095871C /* LocationSorter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LocationSorter;
+			sourceTree = "<group>";
+		};
+		FC3F9F1C1A6F48DF0095871C /* ServerHandler */ = {
+			isa = PBXGroup;
+			children = (
+				FC3F9F1D1A6F48DF0095871C /* ServerHandler.h */,
+				FC3F9F1E1A6F48DF0095871C /* ServerHandler.m */,
+			);
+			path = ServerHandler;
+			sourceTree = "<group>";
+		};
+		FC3F9F1F1A6F48DF0095871C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FC3F9EEB1A6F489C0095871C /* ViewController.h */,
+				FC3F9EEC1A6F489C0095871C /* ViewController.m */,
+				FC3F9F201A6F48DF0095871C /* BaseViewController.h */,
+				FC3F9F211A6F48DF0095871C /* BaseViewController.m */,
+				FC3F9F221A6F48DF0095871C /* RestaurentDetailsViewController.h */,
+				FC3F9F231A6F48DF0095871C /* RestaurentDetailsViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		FC3F9F241A6F48DF0095871C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FC3F9F251A6F48DF0095871C /* BaseView.h */,
+				FC3F9F261A6F48DF0095871C /* BaseView.m */,
+				FC3F9F271A6F48DF0095871C /* ImageViewCell.h */,
+				FC3F9F281A6F48DF0095871C /* ImageViewCell.m */,
+				FC3F9F291A6F48DF0095871C /* RestaurentDetailsView.h */,
+				FC3F9F2A1A6F48DF0095871C /* RestaurentDetailsView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC3F9EE01A6F489C0095871C /* FindMyRestaurent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC3F9F041A6F489C0095871C /* Build configuration list for PBXNativeTarget "FindMyRestaurent" */;
+			buildPhases = (
+				FC3F9EDD1A6F489C0095871C /* Sources */,
+				FC3F9EDE1A6F489C0095871C /* Frameworks */,
+				FC3F9EDF1A6F489C0095871C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindMyRestaurent;
+			productName = FindMyRestaurent;
+			productReference = FC3F9EE11A6F489C0095871C /* FindMyRestaurent.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC3F9EF91A6F489C0095871C /* FindMyRestaurentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC3F9F071A6F489C0095871C /* Build configuration list for PBXNativeTarget "FindMyRestaurentTests" */;
+			buildPhases = (
+				FC3F9EF61A6F489C0095871C /* Sources */,
+				FC3F9EF71A6F489C0095871C /* Frameworks */,
+				FC3F9EF81A6F489C0095871C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC3F9EFC1A6F489C0095871C /* PBXTargetDependency */,
+			);
+			name = FindMyRestaurentTests;
+			productName = FindMyRestaurentTests;
+			productReference = FC3F9EFA1A6F489C0095871C /* FindMyRestaurentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC3F9ED91A6F489C0095871C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Market Simplified";
+				TargetAttributes = {
+					FC3F9EE01A6F489C0095871C = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 5CNN55283J;
+					};
+					FC3F9EF91A6F489C0095871C = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = FC3F9EE01A6F489C0095871C;
+					};
+				};
+			};
+			buildConfigurationList = FC3F9EDC1A6F489C0095871C /* Build configuration list for PBXProject "FindMyRestaurent" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC3F9ED81A6F489C0095871C;
+			productRefGroup = FC3F9EE21A6F489C0095871C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC3F9EE01A6F489C0095871C /* FindMyRestaurent */,
+				FC3F9EF91A6F489C0095871C /* FindMyRestaurentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC3F9EDF1A6F489C0095871C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3F9EF01A6F489C0095871C /* Main.storyboard in Resources */,
+				FC3F9EF51A6F489C0095871C /* LaunchScreen.xib in Resources */,
+				FC3F9EF21A6F489C0095871C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC3F9EF81A6F489C0095871C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC3F9EDD1A6F489C0095871C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3F9EED1A6F489C0095871C /* ViewController.m in Sources */,
+				FC3F9EEA1A6F489C0095871C /* AppDelegate.m in Sources */,
+				FC3F9F361A6F48DF0095871C /* RestaurentDetailsView.m in Sources */,
+				FC3F9F351A6F48DF0095871C /* ImageViewCell.m in Sources */,
+				FC3F9F321A6F48DF0095871C /* BaseViewController.m in Sources */,
+				FC3F9F2D1A6F48DF0095871C /* AsynchronousImageDownloader.m in Sources */,
+				FC3F9F2F1A6F48DF0095871C /* LocationSorter.m in Sources */,
+				FC3F9F301A6F48DF0095871C /* MBProgressHUD.m in Sources */,
+				FC3F9F341A6F48DF0095871C /* BaseView.m in Sources */,
+				FC3F9F331A6F48DF0095871C /* RestaurentDetailsViewController.m in Sources */,
+				FC3F9F2C1A6F48DF0095871C /* ImageCache.m in Sources */,
+				FC3F9F2B1A6F48DF0095871C /* DataParser.m in Sources */,
+				FC3F9F2E1A6F48DF0095871C /* ImageDownloader.m in Sources */,
+				FC3F9EE71A6F489C0095871C /* main.m in Sources */,
+				FC3F9F311A6F48DF0095871C /* ServerHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC3F9EF61A6F489C0095871C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3F9F011A6F489C0095871C /* FindMyRestaurentTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC3F9EFC1A6F489C0095871C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC3F9EE01A6F489C0095871C /* FindMyRestaurent */;
+			targetProxy = FC3F9EFB1A6F489C0095871C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC3F9EEE1A6F489C0095871C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC3F9EEF1A6F489C0095871C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC3F9EF31A6F489C0095871C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC3F9EF41A6F489C0095871C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC3F9F021A6F489C0095871C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC3F9F031A6F489C0095871C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC3F9F051A6F489C0095871C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Krithika Harishankar (85598Q4KG7)";
+				INFOPLIST_FILE = FindMyRestaurent/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e29bd1cd-5a96-4894-8d62-d968728af6ce";
+			};
+			name = Debug;
+		};
+		FC3F9F061A6F489C0095871C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Krithika Harishankar (85598Q4KG7)";
+				INFOPLIST_FILE = FindMyRestaurent/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e29bd1cd-5a96-4894-8d62-d968728af6ce";
+			};
+			name = Release;
+		};
+		FC3F9F081A6F489C0095871C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FindMyRestaurentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindMyRestaurent.app/FindMyRestaurent";
+			};
+			name = Debug;
+		};
+		FC3F9F091A6F489C0095871C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FindMyRestaurentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindMyRestaurent.app/FindMyRestaurent";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC3F9EDC1A6F489C0095871C /* Build configuration list for PBXProject "FindMyRestaurent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC3F9F021A6F489C0095871C /* Debug */,
+				FC3F9F031A6F489C0095871C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC3F9F041A6F489C0095871C /* Build configuration list for PBXNativeTarget "FindMyRestaurent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC3F9F051A6F489C0095871C /* Debug */,
+				FC3F9F061A6F489C0095871C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC3F9F071A6F489C0095871C /* Build configuration list for PBXNativeTarget "FindMyRestaurentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC3F9F081A6F489C0095871C /* Debug */,
+				FC3F9F091A6F489C0095871C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC3F9ED91A6F489C0095871C /* Project object */;
+}

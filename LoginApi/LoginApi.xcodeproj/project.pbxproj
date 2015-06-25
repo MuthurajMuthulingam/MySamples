@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCA959F31A51985B00B9C557 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA959F21A51985B00B9C557 /* main.m */; };
+		FCA959F61A51985B00B9C557 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA959F51A51985B00B9C557 /* AppDelegate.m */; };
+		FCA959F91A51985B00B9C557 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA959F81A51985B00B9C557 /* ViewController.m */; };
+		FCA959FC1A51985B00B9C557 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA959FA1A51985B00B9C557 /* Main.storyboard */; };
+		FCA959FE1A51985B00B9C557 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA959FD1A51985B00B9C557 /* Images.xcassets */; };
+		FCA95A0A1A51985B00B9C557 /* LoginApiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA95A091A51985B00B9C557 /* LoginApiTests.m */; };
+		FCA95A461A519B6900B9C557 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCA95A141A519B6900B9C557 /* InfoPlist.strings */; };
+		FCA95A471A519B6900B9C557 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCA95A161A519B6900B9C557 /* MainWindow.xib */; };
+		FCA95A481A519B6900B9C557 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = FCA95A181A519B6900B9C557 /* Icon-72.png */; };
+		FCA95A491A519B6900B9C557 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FCA95A191A519B6900B9C557 /* Icon.png */; };
+		FCA95A4A1A519B6900B9C557 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCA95A1A1A519B6900B9C557 /* Icon@2x.png */; };
+		FCA95A4B1A519B6900B9C557 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA95A1C1A519B6900B9C557 /* JSONKit.m */; };
+		FCA95A4C1A519B6900B9C557 /* linkedInBluebutton-highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = FCA95A1D1A519B6900B9C557 /* linkedInBluebutton-highlight.png */; };
+		FCA95A4D1A519B6900B9C557 /* linkedInBluebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = FCA95A1E1A519B6900B9C557 /* linkedInBluebutton.png */; };
+		FCA95A4E1A519B6900B9C557 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA95A1F1A519B6900B9C557 /* main.m */; };
+		FCA95A4F1A519B6900B9C557 /* OAAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA95A221A519B6900B9C557 /* OAAttachment.m */; };
+		FCA95A501A519B6900B9C557 /* OACall.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA95A241A519B6900B9C557 /* OACall.m */; };
+		FCA95A511A519B6900B9C557 /* OAConsumer.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA95A261A519B6900B9C557 /* OAConsumer.m */; };
+		FCA95A521A519B6900B9C557 /* OADataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA95A281A519B6900B9C557 /* OADataFetcher.m */; };
+		FCA95A531A519B6900B9C557 /* OAHMAC_SHA1SignatureProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA95A2A1A519B6900B9C557 /* OAHMAC_SHA1SignatureProvider.m */; };
+		FCA95A541A519B6900B9C557 /* OAMutableURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA95A2C1A519B6900B9C557 /* OAMutableURLRequest.m */; };
+		FCA95A551A519B6900B9C557 /* OAPlaintextSignatureProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA95A2E1A519B6900B9C557 /* OAPlaintextSignatureProvider.m */; };
+		FCA95A561A519B6900B9C557 /* OAProblem.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA95A301A519B6900B9C557 /* OAProblem.m */; };
+		FCA95A571A519B6900B9C557 /* OARequestParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA95A321A519B6900B9C557 /* OARequestParameter.m */; };
+		FCA95A581A519B6900B9C557 /* OAServiceTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA95A341A519B6900B9C557 /* OAServiceTicket.m */; };
+		FCA95A591A519B6900B9C557 /* OAToken.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA95A371A519B6900B9C557 /* OAToken.m */; };
+		FCA95A5A1A519B6900B9C557 /* OATokenManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA95A391A519B6900B9C557 /* OATokenManager.m */; };
+		FCA95A5B1A519B6900B9C557 /* OAuthLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA95A3C1A519B6900B9C557 /* OAuthLoginView.m */; };
+		FCA95A5C1A519B6900B9C557 /* OAuthLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCA95A3D1A519B6900B9C557 /* OAuthLoginView.xib */; };
+		FCA95A5D1A519B6900B9C557 /* OAuthStarterKit-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FCA95A3E1A519B6900B9C557 /* OAuthStarterKit-Info.plist */; };
+		FCA95A5E1A519B6900B9C557 /* OAuthStarterKitAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA95A411A519B6900B9C557 /* OAuthStarterKitAppDelegate.m */; };
+		FCA95A5F1A519B6900B9C557 /* ProfileTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA95A431A519B6900B9C557 /* ProfileTabView.m */; };
+		FCA95A601A519B6900B9C557 /* ProfileTabView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCA95A441A519B6900B9C557 /* ProfileTabView.xib */; };
+		FCA95A611A519B6900B9C557 /* READ_ME.txt in Resources */ = {isa = PBXBuildFile; fileRef = FCA95A451A519B6900B9C557 /* READ_ME.txt */; };
+		FCA95A631A519C4300B9C557 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCA95A621A519C4300B9C557 /* SystemConfiguration.framework */; };
+		FCA95A651A519C5700B9C557 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCA95A641A519C5700B9C557 /* CFNetwork.framework */; };
+		FCA95A671A519C6600B9C557 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FCA95A661A519C6600B9C557 /* libz.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCA95A041A51985B00B9C557 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCA959E51A51985B00B9C557 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCA959EC1A51985B00B9C557;
+			remoteInfo = LoginApi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCA959ED1A51985B00B9C557 /* LoginApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA959F11A51985B00B9C557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCA959F21A51985B00B9C557 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCA959F41A51985B00B9C557 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCA959F51A51985B00B9C557 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FCA959F71A51985B00B9C557 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FCA959F81A51985B00B9C557 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FCA959FB1A51985B00B9C557 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCA959FD1A51985B00B9C557 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FCA95A031A51985B00B9C557 /* LoginApiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginApiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA95A081A51985B00B9C557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCA95A091A51985B00B9C557 /* LoginApiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginApiTests.m; sourceTree = "<group>"; };
+		FCA95A151A519B6900B9C557 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FCA95A171A519B6900B9C557 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		FCA95A181A519B6900B9C557 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		FCA95A191A519B6900B9C557 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		FCA95A1A1A519B6900B9C557 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		FCA95A1B1A519B6900B9C557 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		FCA95A1C1A519B6900B9C557 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		FCA95A1D1A519B6900B9C557 /* linkedInBluebutton-highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "linkedInBluebutton-highlight.png"; sourceTree = "<group>"; };
+		FCA95A1E1A519B6900B9C557 /* linkedInBluebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linkedInBluebutton.png; sourceTree = "<group>"; };
+		FCA95A1F1A519B6900B9C557 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCA95A201A519B6900B9C557 /* OAAtachmentF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAAtachmentF.h; sourceTree = "<group>"; };
+		FCA95A211A519B6900B9C557 /* OAAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAAttachment.h; sourceTree = "<group>"; };
+		FCA95A221A519B6900B9C557 /* OAAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAAttachment.m; sourceTree = "<group>"; };
+		FCA95A231A519B6900B9C557 /* OACall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OACall.h; sourceTree = "<group>"; };
+		FCA95A241A519B6900B9C557 /* OACall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OACall.m; sourceTree = "<group>"; };
+		FCA95A251A519B6900B9C557 /* OAConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAConsumer.h; sourceTree = "<group>"; };
+		FCA95A261A519B6900B9C557 /* OAConsumer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAConsumer.m; sourceTree = "<group>"; };
+		FCA95A271A519B6900B9C557 /* OADataFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OADataFetcher.h; sourceTree = "<group>"; };
+		FCA95A281A519B6900B9C557 /* OADataFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OADataFetcher.m; sourceTree = "<group>"; };
+		FCA95A291A519B6900B9C557 /* OAHMAC_SHA1SignatureProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAHMAC_SHA1SignatureProvider.h; sourceTree = "<group>"; };
+		FCA95A2A1A519B6900B9C557 /* OAHMAC_SHA1SignatureProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAHMAC_SHA1SignatureProvider.m; sourceTree = "<group>"; };
+		FCA95A2B1A519B6900B9C557 /* OAMutableURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAMutableURLRequest.h; sourceTree = "<group>"; };
+		FCA95A2C1A519B6900B9C557 /* OAMutableURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAMutableURLRequest.m; sourceTree = "<group>"; };
+		FCA95A2D1A519B6900B9C557 /* OAPlaintextSignatureProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAPlaintextSignatureProvider.h; sourceTree = "<group>"; };
+		FCA95A2E1A519B6900B9C557 /* OAPlaintextSignatureProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAPlaintextSignatureProvider.m; sourceTree = "<group>"; };
+		FCA95A2F1A519B6900B9C557 /* OAProblem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAProblem.h; sourceTree = "<group>"; };
+		FCA95A301A519B6900B9C557 /* OAProblem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAProblem.m; sourceTree = "<group>"; };
+		FCA95A311A519B6900B9C557 /* OARequestParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OARequestParameter.h; sourceTree = "<group>"; };
+		FCA95A321A519B6900B9C557 /* OARequestParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OARequestParameter.m; sourceTree = "<group>"; };
+		FCA95A331A519B6900B9C557 /* OAServiceTicket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAServiceTicket.h; sourceTree = "<group>"; };
+		FCA95A341A519B6900B9C557 /* OAServiceTicket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAServiceTicket.m; sourceTree = "<group>"; };
+		FCA95A351A519B6900B9C557 /* OASignatureProviding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OASignatureProviding.h; sourceTree = "<group>"; };
+		FCA95A361A519B6900B9C557 /* OAToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAToken.h; sourceTree = "<group>"; };
+		FCA95A371A519B6900B9C557 /* OAToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAToken.m; sourceTree = "<group>"; };
+		FCA95A381A519B6900B9C557 /* OATokenManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OATokenManager.h; sourceTree = "<group>"; };
+		FCA95A391A519B6900B9C557 /* OATokenManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OATokenManager.m; sourceTree = "<group>"; };
+		FCA95A3A1A519B6900B9C557 /* OAuthConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthConsumer.h; sourceTree = "<group>"; };
+		FCA95A3B1A519B6900B9C557 /* OAuthLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthLoginView.h; sourceTree = "<group>"; };
+		FCA95A3C1A519B6900B9C557 /* OAuthLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuthLoginView.m; sourceTree = "<group>"; };
+		FCA95A3D1A519B6900B9C557 /* OAuthLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OAuthLoginView.xib; sourceTree = "<group>"; };
+		FCA95A3E1A519B6900B9C557 /* OAuthStarterKit-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OAuthStarterKit-Info.plist"; sourceTree = "<group>"; };
+		FCA95A3F1A519B6900B9C557 /* OAuthStarterKit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OAuthStarterKit-Prefix.pch"; sourceTree = "<group>"; };
+		FCA95A401A519B6900B9C557 /* OAuthStarterKitAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthStarterKitAppDelegate.h; sourceTree = "<group>"; };
+		FCA95A411A519B6900B9C557 /* OAuthStarterKitAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuthStarterKitAppDelegate.m; sourceTree = "<group>"; };
+		FCA95A421A519B6900B9C557 /* ProfileTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileTabView.h; sourceTree = "<group>"; };
+		FCA95A431A519B6900B9C557 /* ProfileTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileTabView.m; sourceTree = "<group>"; };
+		FCA95A441A519B6900B9C557 /* ProfileTabView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileTabView.xib; sourceTree = "<group>"; };
+		FCA95A451A519B6900B9C557 /* READ_ME.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = READ_ME.txt; sourceTree = "<group>"; };
+		FCA95A621A519C4300B9C557 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FCA95A641A519C5700B9C557 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FCA95A661A519C6600B9C557 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCA959EA1A51985B00B9C557 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA95A671A519C6600B9C557 /* libz.dylib in Frameworks */,
+				FCA95A651A519C5700B9C557 /* CFNetwork.framework in Frameworks */,
+				FCA95A631A519C4300B9C557 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA95A001A51985B00B9C557 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCA959E41A51985B00B9C557 = {
+			isa = PBXGroup;
+			children = (
+				FCA95A661A519C6600B9C557 /* libz.dylib */,
+				FCA95A641A519C5700B9C557 /* CFNetwork.framework */,
+				FCA95A621A519C4300B9C557 /* SystemConfiguration.framework */,
+				FCA959EF1A51985B00B9C557 /* LoginApi */,
+				FCA95A061A51985B00B9C557 /* LoginApiTests */,
+				FCA959EE1A51985B00B9C557 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCA959EE1A51985B00B9C557 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCA959ED1A51985B00B9C557 /* LoginApi.app */,
+				FCA95A031A51985B00B9C557 /* LoginApiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCA959EF1A51985B00B9C557 /* LoginApi */ = {
+			isa = PBXGroup;
+			children = (
+				FCA95A131A519B6900B9C557 /* OAuthStarterKit */,
+				FCA959F41A51985B00B9C557 /* AppDelegate.h */,
+				FCA959F51A51985B00B9C557 /* AppDelegate.m */,
+				FCA959F71A51985B00B9C557 /* ViewController.h */,
+				FCA959F81A51985B00B9C557 /* ViewController.m */,
+				FCA959FA1A51985B00B9C557 /* Main.storyboard */,
+				FCA959FD1A51985B00B9C557 /* Images.xcassets */,
+				FCA959F01A51985B00B9C557 /* Supporting Files */,
+			);
+			path = LoginApi;
+			sourceTree = "<group>";
+		};
+		FCA959F01A51985B00B9C557 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCA959F11A51985B00B9C557 /* Info.plist */,
+				FCA959F21A51985B00B9C557 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCA95A061A51985B00B9C557 /* LoginApiTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCA95A091A51985B00B9C557 /* LoginApiTests.m */,
+				FCA95A071A51985B00B9C557 /* Supporting Files */,
+			);
+			path = LoginApiTests;
+			sourceTree = "<group>";
+		};
+		FCA95A071A51985B00B9C557 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCA95A081A51985B00B9C557 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCA95A131A519B6900B9C557 /* OAuthStarterKit */ = {
+			isa = PBXGroup;
+			children = (
+				FCA95A141A519B6900B9C557 /* InfoPlist.strings */,
+				FCA95A161A519B6900B9C557 /* MainWindow.xib */,
+				FCA95A181A519B6900B9C557 /* Icon-72.png */,
+				FCA95A191A519B6900B9C557 /* Icon.png */,
+				FCA95A1A1A519B6900B9C557 /* Icon@2x.png */,
+				FCA95A1B1A519B6900B9C557 /* JSONKit.h */,
+				FCA95A1C1A519B6900B9C557 /* JSONKit.m */,
+				FCA95A1D1A519B6900B9C557 /* linkedInBluebutton-highlight.png */,
+				FCA95A1E1A519B6900B9C557 /* linkedInBluebutton.png */,
+				FCA95A1F1A519B6900B9C557 /* main.m */,
+				FCA95A201A519B6900B9C557 /* OAAtachmentF.h */,
+				FCA95A211A519B6900B9C557 /* OAAttachment.h */,
+				FCA95A221A519B6900B9C557 /* OAAttachment.m */,
+				FCA95A231A519B6900B9C557 /* OACall.h */,
+				FCA95A241A519B6900B9C557 /* OACall.m */,
+				FCA95A251A519B6900B9C557 /* OAConsumer.h */,
+				FCA95A261A519B6900B9C557 /* OAConsumer.m */,
+				FCA95A271A519B6900B9C557 /* OADataFetcher.h */,
+				FCA95A281A519B6900B9C557 /* OADataFetcher.m */,
+				FCA95A291A519B6900B9C557 /* OAHMAC_SHA1SignatureProvider.h */,
+				FCA95A2A1A519B6900B9C557 /* OAHMAC_SHA1SignatureProvider.m */,
+				FCA95A2B1A519B6900B9C557 /* OAMutableURLRequest.h */,
+				FCA95A2C1A519B6900B9C557 /* OAMutableURLRequest.m */,
+				FCA95A2D1A519B6900B9C557 /* OAPlaintextSignatureProvider.h */,
+				FCA95A2E1A519B6900B9C557 /* OAPlaintextSignatureProvider.m */,
+				FCA95A2F1A519B6900B9C557 /* OAProblem.h */,
+				FCA95A301A519B6900B9C557 /* OAProblem.m */,
+				FCA95A311A519B6900B9C557 /* OARequestParameter.h */,
+				FCA95A321A519B6900B9C557 /* OARequestParameter.m */,
+				FCA95A331A519B6900B9C557 /* OAServiceTicket.h */,
+				FCA95A341A519B6900B9C557 /* OAServiceTicket.m */,
+				FCA95A351A519B6900B9C557 /* OASignatureProviding.h */,
+				FCA95A361A519B6900B9C557 /* OAToken.h */,
+				FCA95A371A519B6900B9C557 /* OAToken.m */,
+				FCA95A381A519B6900B9C557 /* OATokenManager.h */,
+				FCA95A391A519B6900B9C557 /* OATokenManager.m */,
+				FCA95A3A1A519B6900B9C557 /* OAuthConsumer.h */,
+				FCA95A3B1A519B6900B9C557 /* OAuthLoginView.h */,
+				FCA95A3C1A519B6900B9C557 /* OAuthLoginView.m */,
+				FCA95A3D1A519B6900B9C557 /* OAuthLoginView.xib */,
+				FCA95A3E1A519B6900B9C557 /* OAuthStarterKit-Info.plist */,
+				FCA95A3F1A519B6900B9C557 /* OAuthStarterKit-Prefix.pch */,
+				FCA95A401A519B6900B9C557 /* OAuthStarterKitAppDelegate.h */,
+				FCA95A411A519B6900B9C557 /* OAuthStarterKitAppDelegate.m */,
+				FCA95A421A519B6900B9C557 /* ProfileTabView.h */,
+				FCA95A431A519B6900B9C557 /* ProfileTabView.m */,
+				FCA95A441A519B6900B9C557 /* ProfileTabView.xib */,
+				FCA95A451A519B6900B9C557 /* READ_ME.txt */,
+			);
+			path = OAuthStarterKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCA959EC1A51985B00B9C557 /* LoginApi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCA95A0D1A51985B00B9C557 /* Build configuration list for PBXNativeTarget "LoginApi" */;
+			buildPhases = (
+				FCA959E91A51985B00B9C557 /* Sources */,
+				FCA959EA1A51985B00B9C557 /* Frameworks */,
+				FCA959EB1A51985B00B9C557 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginApi;
+			productName = LoginApi;
+			productReference = FCA959ED1A51985B00B9C557 /* LoginApi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCA95A021A51985B00B9C557 /* LoginApiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCA95A101A51985B00B9C557 /* Build configuration list for PBXNativeTarget "LoginApiTests" */;
+			buildPhases = (
+				FCA959FF1A51985B00B9C557 /* Sources */,
+				FCA95A001A51985B00B9C557 /* Frameworks */,
+				FCA95A011A51985B00B9C557 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCA95A051A51985B00B9C557 /* PBXTargetDependency */,
+			);
+			name = LoginApiTests;
+			productName = LoginApiTests;
+			productReference = FCA95A031A51985B00B9C557 /* LoginApiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCA959E51A51985B00B9C557 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Market Simplified";
+				TargetAttributes = {
+					FCA959EC1A51985B00B9C557 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					FCA95A021A51985B00B9C557 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = FCA959EC1A51985B00B9C557;
+					};
+				};
+			};
+			buildConfigurationList = FCA959E81A51985B00B9C557 /* Build configuration list for PBXProject "LoginApi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCA959E41A51985B00B9C557;
+			productRefGroup = FCA959EE1A51985B00B9C557 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCA959EC1A51985B00B9C557 /* LoginApi */,
+				FCA95A021A51985B00B9C557 /* LoginApiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCA959EB1A51985B00B9C557 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA95A491A519B6900B9C557 /* Icon.png in Resources */,
+				FCA95A471A519B6900B9C557 /* MainWindow.xib in Resources */,
+				FCA95A5C1A519B6900B9C557 /* OAuthLoginView.xib in Resources */,
+				FCA95A4A1A519B6900B9C557 /* Icon@2x.png in Resources */,
+				FCA95A611A519B6900B9C557 /* READ_ME.txt in Resources */,
+				FCA95A481A519B6900B9C557 /* Icon-72.png in Resources */,
+				FCA95A4C1A519B6900B9C557 /* linkedInBluebutton-highlight.png in Resources */,
+				FCA959FC1A51985B00B9C557 /* Main.storyboard in Resources */,
+				FCA95A461A519B6900B9C557 /* InfoPlist.strings in Resources */,
+				FCA95A5D1A519B6900B9C557 /* OAuthStarterKit-Info.plist in Resources */,
+				FCA95A4D1A519B6900B9C557 /* linkedInBluebutton.png in Resources */,
+				FCA95A601A519B6900B9C557 /* ProfileTabView.xib in Resources */,
+				FCA959FE1A51985B00B9C557 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA95A011A51985B00B9C557 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCA959E91A51985B00B9C557 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA95A581A519B6900B9C557 /* OAServiceTicket.m in Sources */,
+				FCA95A4E1A519B6900B9C557 /* main.m in Sources */,
+				FCA959F91A51985B00B9C557 /* ViewController.m in Sources */,
+				FCA959F61A51985B00B9C557 /* AppDelegate.m in Sources */,
+				FCA95A521A519B6900B9C557 /* OADataFetcher.m in Sources */,
+				FCA95A5E1A519B6900B9C557 /* OAuthStarterKitAppDelegate.m in Sources */,
+				FCA95A5F1A519B6900B9C557 /* ProfileTabView.m in Sources */,
+				FCA95A5A1A519B6900B9C557 /* OATokenManager.m in Sources */,
+				FCA95A5B1A519B6900B9C557 /* OAuthLoginView.m in Sources */,
+				FCA95A591A519B6900B9C557 /* OAToken.m in Sources */,
+				FCA95A511A519B6900B9C557 /* OAConsumer.m in Sources */,
+				FCA95A501A519B6900B9C557 /* OACall.m in Sources */,
+				FCA95A541A519B6900B9C557 /* OAMutableURLRequest.m in Sources */,
+				FCA95A571A519B6900B9C557 /* OARequestParameter.m in Sources */,
+				FCA95A561A519B6900B9C557 /* OAProblem.m in Sources */,
+				FCA95A4B1A519B6900B9C557 /* JSONKit.m in Sources */,
+				FCA95A4F1A519B6900B9C557 /* OAAttachment.m in Sources */,
+				FCA959F31A51985B00B9C557 /* main.m in Sources */,
+				FCA95A531A519B6900B9C557 /* OAHMAC_SHA1SignatureProvider.m in Sources */,
+				FCA95A551A519B6900B9C557 /* OAPlaintextSignatureProvider.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA959FF1A51985B00B9C557 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA95A0A1A51985B00B9C557 /* LoginApiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCA95A051A51985B00B9C557 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCA959EC1A51985B00B9C557 /* LoginApi */;
+			targetProxy = FCA95A041A51985B00B9C557 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCA959FA1A51985B00B9C557 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCA959FB1A51985B00B9C557 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCA95A141A519B6900B9C557 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCA95A151A519B6900B9C557 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FCA95A161A519B6900B9C557 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCA95A171A519B6900B9C557 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCA95A0B1A51985B00B9C557 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCA95A0C1A51985B00B9C557 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCA95A0E1A51985B00B9C557 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Krithika Harishankar (85598Q4KG7)";
+				INFOPLIST_FILE = LoginApi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-lc++",
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3c81e83e-2c3c-41d4-a748-a02adcf50a69";
+			};
+			name = Debug;
+		};
+		FCA95A0F1A51985B00B9C557 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Krithika Harishankar (85598Q4KG7)";
+				INFOPLIST_FILE = LoginApi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-lc++",
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3c81e83e-2c3c-41d4-a748-a02adcf50a69";
+			};
+			name = Release;
+		};
+		FCA95A111A51985B00B9C557 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LoginApi.app/LoginApi";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LoginApiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		FCA95A121A51985B00B9C557 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LoginApi.app/LoginApi";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LoginApiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCA959E81A51985B00B9C557 /* Build configuration list for PBXProject "LoginApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA95A0B1A51985B00B9C557 /* Debug */,
+				FCA95A0C1A51985B00B9C557 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCA95A0D1A51985B00B9C557 /* Build configuration list for PBXNativeTarget "LoginApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA95A0E1A51985B00B9C557 /* Debug */,
+				FCA95A0F1A51985B00B9C557 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCA95A101A51985B00B9C557 /* Build configuration list for PBXNativeTarget "LoginApiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA95A111A51985B00B9C557 /* Debug */,
+				FCA95A121A51985B00B9C557 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCA959E51A51985B00B9C557 /* Project object */;
+}
